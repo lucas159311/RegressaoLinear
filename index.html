@@ -9,7 +9,7 @@
     <script src="/script.js"></script>
     <title>Regressão Linear - Lucas Avelino</title>
 </head>
-<body onload="teste()">
+<body>
     <div class="container" style="margin-top: 2%;">
         <div class="card">
             <h5 class="card-header bg-dark text-white">Destaque</h5>
@@ -21,8 +21,10 @@
                 <input type="text" class="form-control" id="Y" placeholder="Exemplo: -1,2,-3,4,-5,6">
                 <br>
                 <div class="buttons" align="center">
-                    <button class="btn btn-warning">Calcular</button>
-                    <button class="btn btn-danger">Excluir</button>
+                    <button class="btn btn-warning" onclick="Calcular()">Calcular</button>
+                    <button class="btn btn-danger" onclick="Limpar()">Limpar</button>
+                </div>
+                <div align="center" id="resposta">
                 </div>
             </div>
         </div>
