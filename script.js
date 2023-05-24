@@ -91,3 +91,7 @@ function ExibeResultado(angular, linear){
   
 
 }
+
+function testinha(){
+  alert("testinhaaa");
+}
